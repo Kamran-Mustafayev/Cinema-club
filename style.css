@@ -1,0 +1,241 @@
+
+/* BASLANGIC */
+*{
+    margin: 0;
+    padding: 0;
+}
+body html{
+    margin: 0;
+    padding: 0;
+}
+/* CONTAINER */
+.container{
+    background-image: url('https://www.plex.tv/wp-content/uploads/2021/04/plex-splash-screen-04-30-21-new-1024x576.png');
+    /* height: 1530px; */
+}
+    /* HEADERIN */
+header{
+    background-image: url(./pictures/ICON-HEADER.jpg);
+    background-size: 130px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+}
+        /* ICON */
+.icon{
+    display: flex;
+    flex-basis: 20%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+                /* NAME-ICON */
+.name-icon{
+    display: flex;
+    color: #f1c40f;
+    font-size: 20px;
+}
+                /* IMG-ICON */
+.img-icon{
+    height: 50px;
+}
+        /* NAV */
+nav{
+    display: flex;
+    flex-basis: 60%;
+    justify-content: space-around;
+}
+.searcher:hover{
+    opacity: 0.8;
+}
+            /* A */
+a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+a:hover{
+    opacity: 0.8;
+}
+        /* I */
+i{
+    margin: 10px;
+    padding: 5px;
+    color: #c0392b;
+    cursor: pointer;
+}
+i:hover{
+    opacity: 0.8;
+}
+    /* CONTENT */
+.content{
+    height: 750px;
+    display: flex;
+}
+        /* LEFT-SIDE */
+.left-side{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    font-size: 20px;
+}
+            /* TOP */
+.TOP{
+    display: flex;
+    justify-content: center;
+    flex-basis: 30%;
+}
+.toplist{
+    color: #ffa502;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 15px;
+}
+i:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+            /* BOTTOM */
+.BOTTOM{
+    display: flex;
+    justify-content: center;
+    flex-basis: 70%;
+}
+.bottomlist{
+    color: #ffa502;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 15px;
+}
+li:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+        /* MAIN */
+.main{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 80%;
+}
+            /* CARDS */
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 30%;
+    justify-content: space-around;
+    align-items: center;
+}
+.crd{
+    background-color: #fff;
+    display: flex;
+    height: 80%;
+    width: 10%;
+}
+            /* BOXES */
+.boxes{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 35%;
+    justify-content: space-around;
+    align-items: center;
+}
+.bxs{
+    background-color: #fff;
+    display: flex;
+    height: 80%;
+    width: 10%;
+}
+            /* IMAGES */
+.images{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 35%;
+    justify-content: space-around;
+    align-items: center;
+}
+.img{
+    background-color: #fff;
+    display: flex;
+    height: 80%;
+    width: 10%;
+}
+    /* FOOTER */
+footer{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.brand{
+    display: flex;
+    flex-basis: 20%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.brand-icon{
+    height: 50px;
+}
+.name-brand{
+    display: flex;
+    color: #f1c40f;
+    font-size: 20px;
+}
+.social-media{
+    display: flex;
+    flex-basis: 60%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.facebook:hover{
+    opacity: 0.8;
+    cursor: pointer;   
+}
+.fb{
+    color: rgb(66, 103, 178);
+}
+.twitter:hover{
+    opacity: 0.8;
+    cursor: pointer; 
+}
+.twt{
+    color: rgb(29,161,242);
+}
+.instagram:hover{
+    opacity: 0.8;
+    cursor: pointer; 
+}
+.ins{
+    color: rgb(255, 200, 56);
+}
+.languages{
+    display: flex;
+    flex-basis: 20%;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+.lang{
+    display: flex;
+    flex-basis: 50%;
+}
+select{
+    color: white;
+    background-color: black;
+}
+select:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.globe{
+    color: rgb(255,255,255);
+}
